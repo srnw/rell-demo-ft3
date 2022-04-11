@@ -1,0 +1,25 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "demo_ft3.js",
+  "scripts": {
+    "start": "tsc --sourceMap && node --enable-source-maps dist/demo_ft3.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node-fetch": "^2.6.1",
+    "ft3-lib": "^3.4.2",
+    "node-fetch": "^2.6.1",
+    "simple-postchain": "^0.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "ts-node": "^10.7.0",
+    "tslib": "^2.3.1",
+    "typescript": "^4.6.3"
+  }
+}

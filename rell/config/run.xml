@@ -1,0 +1,23 @@
+<run wipe-db="true">
+    <nodes>
+        <config src="node-config.properties" add-signers="true" />
+        <test-config src="node-config-test.properties"/>
+    </nodes>
+    <chains>
+        <chain name="DemoFT3" iid="1">
+            <config height="0">
+                <app module="main">
+                	<args module="libs.ft3.core">
+                      <arg key="my_blockchain_name"><string>DemoFT3</string></arg>
+                      <arg key="my_blockchain_website"><string>http://localhost:3000</string></arg>
+                      <arg key="my_blockchain_description"><string>Demo Project for FT3</string></arg>
+                      <arg key="rate_limit_active"><int>1</int></arg>
+                      <arg key="rate_limit_max_points"><int>10</int></arg>
+                      <arg key="rate_limit_recovery_time"><int>30000</int></arg>
+                      <arg key="rate_limit_points_at_account_creation"><int>1</int></arg>
+                  </args>
+                </app>
+            </config>
+        </chain>
+    </chains>
+</run>

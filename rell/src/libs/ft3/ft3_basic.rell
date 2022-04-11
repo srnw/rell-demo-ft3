@@ -1,0 +1,12 @@
+module;
+
+namespace ft3 {
+    import libs.ft3.core.*;
+    import libs.ft3.operations.dev_op_asset;
+    import libs.ft3.operations.dev_op_account;
+    import libs.ft3.account.operations;
+    import libs.ft3.core.operations.transfer;
+    import libs.ft3.operations.dev_op_balance;
+    import libs.ft3.operations.dev_op_rate_limit;
+}
+
